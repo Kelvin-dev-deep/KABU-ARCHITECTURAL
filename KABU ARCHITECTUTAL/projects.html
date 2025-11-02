@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Projects — KABU ARCHITECTURAL</title>
+  <meta name="description" content="Portfolio of selected projects by KABU ARCHITECTURAL." />
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <a href="index.html" class="brand"><div class="logo">KA</div><div style="font-weight:800">KABU ARCHITECTURAL</div></a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="actions"><button id="menuBtn" class="menu-toggle">&#9776;</button><a class="btn" href="contact.html">Request Quote</a></div>
+    </header>
+
+    <main>
+      <section aria-labelledby="projects-heading">
+        <h1 id="projects-heading">Projects & Portfolio</h1>
+        <p class="small">A selection of completed works across sectors.</p>
+
+        <div class="projects-grid" style="margin-top:12px">
+          <div class="project" style="background-image:url('https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1200&q=80')">
+            <div class="meta"><div style="font-weight:700">Coastal Business Hub</div><div style="font-size:13px">Commercial • 2024</div></div>
+          </div>
+          <div class="project" style="background-image:url('https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80')">
+            <div class="meta"><div style="font-weight:700">Riverside Residences</div><div style="font-size:13px">Residential • 2023</div></div>
+          </div>
+          <div class="project" style="background-image:url('https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=1200&q=80')">
+            <div class="meta"><div style="font-weight:700">Industrial Park A</div><div style="font-size:13px">Industrial • 2022</div></div>
+          </div>
+          <!-- add more as needed -->
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div style="font-weight:800">KABU ARCHITECTURAL</div>
+      <div class="copy">© <span id="year"></span> KABU ARCHITECTURAL</div>
+    </footer>
+  </div>
+
+  <div id="lightboxModal" class="modal">
+    <img id="lightboxImg" class="img" alt="Project image">
+  </div>
+
+  <script src="assets/script.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

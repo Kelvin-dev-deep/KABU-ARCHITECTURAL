@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About — KABU ARCHITECTURAL</title>
+  <meta name="description" content="About KABU ARCHITECTURAL — architectural design, surveying and property services based in Odumase Krobo." />
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <a href="index.html" class="brand"><div class="logo">KA</div><div style="font-weight:800">KABU ARCHITECTURAL</div></a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="actions"><button id="menuBtn" class="menu-toggle">&#9776;</button><a class="btn" href="contact.html">Request Quote</a></div>
+    </header>
+
+    <main>
+      <section aria-labelledby="about-heading">
+        <h1 id="about-heading">About KABU ARCHITECTURAL</h1>
+        <p class="lead">KABU ARCHITECTURAL is a full-service building and surveying firm based in Odumase Krobo. We specialize in architectural design, site surveying, and assisting clients through buying or selling land and homes.</p>
+
+        <div class="grid-3" style="margin-top:18px">
+          <div class="card">
+            <h3>Our Mission</h3>
+            <p class="small">To turn client visions into safe, functional and beautiful built spaces — delivered on time and on budget.</p>
+          </div>
+          <div class="card">
+            <h3>Our Vision</h3>
+            <p class="small">To be the most trusted partner for building and land services in our region, known for integrity and quality.</p>
+          </div>
+          <div class="card">
+            <h3>Our Approach</h3>
+            <p class="small">Client-first, evidence-based design and disciplined project management ensure clarity and reduced risk at every stage.</p>
+          </div>
+        </div>
+
+        <section style="margin-top:22px">
+          <h2>Team & Capabilities</h2>
+          <div class="card" style="display:flex;gap:14px;align-items:center">
+            <div style="width:96px;height:96px;border-radius:12px;background:url('https://images.unsplash.com/photo-1520975913639-3da79b8a8c7a?auto=format&fit=crop&w=600&q=80') center/cover"></div>
+            <div>
+              <div style="font-weight:700">Lead Architect — Professional name</div>
+              <div class="small">Experienced in residential and commercial projects with local and national approvals.</div>
+            </div>
+          </div>
+        </section>
+
+      </section>
+    </main>
+
+    <footer>
+      <div style="font-weight:800">KABU ARCHITECTURAL</div>
+      <div class="copy">© <span id="year"></span> KABU ARCHITECTURAL</div>
+    </footer>
+  </div>
+
+  <script src="assets/script.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

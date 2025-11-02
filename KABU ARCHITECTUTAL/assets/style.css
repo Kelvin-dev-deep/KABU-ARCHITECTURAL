@@ -1,0 +1,16 @@
+modal{position:fixed;inset:0;background:rgba(0,0,0,0.6);display:none;align-items:center;justify-content:center;padding:20px}
+.modal .img{max-width:100%;max-height:90vh;border-radius:8px;box-shadow:0 20px 60px rgba(0,0,0,0.6)}
+
+/* Responsive */
+@media (max-width:1000px){
+  .hero{grid-template-columns:1fr}
+  .grid-3,.projects-grid{grid-template-columns:repeat(2,1fr)}
+  .contact-grid{grid-template-columns:1fr}
+}
+@media (max-width:640px){
+  .nav{display:none}
+  .menu-toggle{display:block}
+  .container{padding:16px}
+  .grid-3,.projects-grid{grid-template-columns:1fr}
+  .brand .logo{width:48px;height:48px}
+}

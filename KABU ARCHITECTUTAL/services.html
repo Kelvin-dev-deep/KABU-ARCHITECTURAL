@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Services — KABU ARCHITECTURAL</title>
+  <meta name="description" content="Services by KABU ARCHITECTURAL — architectural design, surveying, construction supervision and property services." />
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <a href="index.html" class="brand"><div class="logo">KA</div><div style="font-weight:800">KABU ARCHITECTURAL</div></a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="actions"><button id="menuBtn" class="menu-toggle">&#9776;</button><a class="btn" href="contact.html">Request Quote</a></div>
+    </header>
+
+    <main>
+      <section aria-labelledby="services-heading">
+        <h1 id="services-heading">Our Services</h1>
+        <p class="small">We provide a wide range of services across architecture, surveying and property support.</p>
+
+        <div class="grid-3" style="margin-top:14px">
+          <div class="card service">
+            <div class="icon">🏛️</div>
+            <h3>Architectural Design</h3>
+            <p class="small">Concept design, detailed drawings, 3D visuals and permit documentation tailored to your brief.</p>
+          </div>
+
+          <div class="card service">
+            <div class="icon">📐</div>
+            <h3>Surveying & Valuation</h3>
+            <p class="small">Topographic surveys, boundary checks and valuation reports to support transactions and development.</p>
+          </div>
+
+          <div class="card service">
+            <div class="icon">🛠️</div>
+            <h3>Construction Supervision</h3>
+            <p class="small">On-site management, quality assurance and coordination to ensure build integrity and schedule control.</p>
+          </div>
+        </div>
+
+        <section style="margin-top:18px">
+          <h2>Special Services</h2>
+          <div class="card">
+            <ul>
+              <li>Feasibility & site analysis</li>
+              <li>Permit application support</li>
+              <li>Buy / sell assistance for land & houses</li>
+              <li>Renovation & adaptive re-use</li>
+            </ul>
+          </div>
+        </section>
+
+      </section>
+    </main>
+
+    <footer>
+      <div style="font-weight:800">KABU ARCHITECTURAL</div>
+      <div class="copy">© <span id="year"></span> KABU ARCHITECTURAL</div>
+    </footer>
+  </div>
+
+  <script src="assets/script.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
